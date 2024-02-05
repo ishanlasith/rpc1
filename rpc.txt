@@ -1,0 +1,27 @@
+struct num{
+	int x;
+};
+
+program FACTORIAL{
+	version FACOVER{
+	   int fac(num)=1;
+	}=1;
+}=0x12345678;
+
+
+int facv=1;
+	for (int i = 1; i <=argp->x; ++i)
+	{
+		facv=facv*i;
+	}
+	result=facv;
+
+
+
+
+printf("Enter the number: ");
+	scanf("%d",&fac_1_arg.x);
+
+
+
+printf("Factorial Value: %d\n",*result_1);
